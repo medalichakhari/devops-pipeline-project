@@ -72,7 +72,29 @@ This project showcases a production-ready workflow for deploying a Node.js Expre
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 🛠️ Technology Stack
+## � Screenshots
+
+### CI/CD Pipeline
+
+![GitHub Actions Success](screenshots/01-github-actions-success.png)
+_Automated CI/CD pipeline running lint, build, and test jobs_
+
+### Kubernetes Deployment
+
+![Kubernetes Pods Running](screenshots/02-kubernetes-pods.png)
+_Application pods and monitoring stack running in Kubernetes cluster_
+
+### Grafana Monitoring Dashboard
+
+![Grafana Dashboard](screenshots/03-grafana-dashboard.png)
+_Real-time metrics visualization with request rates, latency, and resource usage_
+
+### Prometheus Metrics Collection
+
+![Prometheus Targets](screenshots/05-prometheus-targets.png)
+_Prometheus successfully scraping metrics from application pods_
+
+## �🛠️ Technology Stack
 
 | Category             | Technology             | Purpose                                     |
 | -------------------- | ---------------------- | ------------------------------------------- |
