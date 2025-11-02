@@ -1,0 +1,22 @@
+# Terraform state and provider files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# Plans
+*.tfplan
